@@ -59,8 +59,8 @@ void rotation(vector<Piramid>& piramids, int number, double angle, Axises axis) 
 }
 
 vector<Piramid> createTask() {
-    Piramid piramid1(Point3D(250, 250, 100), Point3D(350, 250, 100), Point3D(350, 350, 100), Point3D(270, 270, 200), BLUE, GREEN, RED, YELLOW);
-    Piramid piramid2(Point3D(300, 300, 0), Point3D(400, 300, 0), Point3D(400, 400, 0), Point3D(350, 330, 100), CYAN, MAGENTA, BROWN, LIGHTRED);
+    Piramid piramid1(Point3D(400, 400, 0), Point3D(350, 250, 100), Point3D(300, 300, 0), Point3D(270, 270, 200), BLUE, GREEN, RED, YELLOW);
+    Piramid piramid2(Point3D(350, 350, 100), Point3D(400, 300, 0), Point3D(250, 250, 100), Point3D(350, 350, 100), CYAN, MAGENTA, BROWN, LIGHTRED);
     vector<Piramid> piramids;
     piramids.push_back(piramid1);
     piramids.push_back(piramid2);
